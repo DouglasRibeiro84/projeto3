@@ -1,0 +1,45 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background: rgb(199, 93, 54);
+}
+
+.nav .nav-link.active {
+    background-color: white;
+    color:rgb(199, 93, 54) ;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-brand{
+    font-family: Pacifico, cursive;
+}
+
+.navbar-toggler{
+    background-color:rgb(237, 182, 163) ;
+}
+
+img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-title{
+    font-family: Pacifico, cursive;
+}
+
+.section-title span{
+    color:rgb(199, 93, 54)  ;
+}
+
+#sobre-restaurante{
+    background-color:rgba(199, 93, 54, 0.151)  ;
+}
+
