@@ -6,12 +6,12 @@ body{
     background: rgb(199, 93, 54);
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: white;
     color:rgb(199, 93, 54) ;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
     color: white;
@@ -35,11 +35,25 @@ img{
     font-family: Pacifico, cursive;
 }
 
-.section-title span{
-    color:rgb(199, 93, 54)  ;
+#sobre-restaurante,
+#cardapio {
+    background-color:rgba(199, 93, 54, 0.151)  ;
 }
 
-#sobre-restaurante{
-    background-color:rgba(199, 93, 54, 0.151)  ;
+.text-colored{
+    color:rgb(199, 93, 54);
+}
+
+.nav-cardapio .nav-link.active{
+    background-color: rgb(199, 93, 54);
+    color: white;
+}
+
+.nav-cardapio .nav-link.active:hover{
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover{
+    color:rgb(199, 93, 54) ;
 }
 
